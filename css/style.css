@@ -1,0 +1,148 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1200px;
+  margin: 50px auto;
+  padding: 30px 20px;
+  margin-top: 50px;
+  border: 2px solid #222;
+  box-shadow: 5px 10px #cacaca;
+  border-radius: 30px;
+}
+.container form.data-info {
+  position: relative;
+  margin-bottom: 30px;
+  border: 2px solid #9c9c9c;
+  padding: 20px;
+  background-color: #fbfbfb;
+  border-radius: 10px;
+}
+.container form.data-info .main-title {
+  font-family: RiseofKingdom;
+  font-size: 40px;
+  color: #333;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.container form.data-info .developer {
+  position: absolute;
+  right: 35px;
+  top: 10px;
+}
+.container form.data-info .developer .img-developer {
+  width: 100px;
+  height: 100px;
+  margin-left: 40px;
+}
+.container form.data-info .developer .developer-name, .container form.data-info .developer .developer-info {
+  text-align: center;
+  margin: 5px;
+  width: 100%;
+}
+.container form.data-info #url-alert {
+  display: inline-block;
+  width: 80%;
+  margin-left: 105px;
+  height: 50px;
+  color: red;
+  font-size: 12px;
+}
+.container form.data-info .sub-area {
+  width: 100%;
+  display: inline-block;
+}
+.container form.data-info .sub-area .sub-title {
+  width: 100px;
+  display: inline-block;
+}
+.container form.data-info .sub-area .input-text {
+  height: 30px;
+  border-radius: 3px;
+  border: 1px solid #b4b4b4;
+  padding-left: 5px;
+}
+.container form.data-info .sub-area .image-text {
+  width: calc(100% - 110px);
+  border-radius: 3px;
+  border: 1px solid #b4b4b4;
+  padding-left: 5px;
+}
+.container form.data-info .sub-area .image-width, .container form.data-info .sub-area .image-height {
+  width: 25%;
+  display: inline-block;
+}
+.container form.data-info .sub-area .image-width p, .container form.data-info .sub-area .image-height p {
+  margin-left: 100px;
+  color: red;
+  font-size: 12px;
+}
+.container form.data-info .sub-area .image-width {
+  float: left;
+}
+.container form.data-info .sub-area .image-width span {
+  width: 100px;
+  display: inline-block;
+}
+.container form.data-info .sub-area .width-text, .container form.data-info .sub-area .height-text {
+  width: 100px;
+  line-height: 3;
+  border-radius: 3px;
+  border: 1px solid #b4b4b4;
+  padding-left: 5px;
+}
+.container form.data-info .sub-area .text-area {
+  display: inline-block;
+  width: 50%;
+  float: right;
+  margin-right: -48px;
+}
+.container form.data-info .sub-area .info-text {
+  width: 395px;
+}
+.container form.data-info .sub-area .download-button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 35px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 0 20px;
+  border-radius: 3px;
+}
+.container form.data-info .sub-area .download-button:hover {
+  background-color: green;
+}
+.container form.data-info .sub-area .alert-area {
+  text-align: center;
+  margin-top: 20px;
+}
+.container form.data-info .sub-area .alert-area span {
+  font-size: 20px;
+  display: inline-block;
+  width: 100%;
+  height: 23px;
+}
+.container form.data-info .submit-area {
+  text-align: center;
+  margin: 25px 0;
+}
+.container .show-images {
+  margin-bottom: 30px;
+  border: 2px solid #222;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.container .show-images img {
+  margin: 2px 4px;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+.container .show-images img:first-child {
+  margin-left: -8px;
+}
+
+/*# sourceMappingURL=style.css.map */

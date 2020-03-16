@@ -1,0 +1,172 @@
+*, *::before, *::after {
+  box-sizing: border-box; 
+}
+
+.container {
+    width: 1200px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    margin-top: 50px;
+    border: 2px solid #222;
+    box-shadow: 5px 10px #cacaca;
+    border-radius: 30px;
+
+    form.data-info {
+    	position: relative;
+		margin-bottom: 30px;
+		border: 2px solid #9c9c9c;
+		padding: 20px;
+		background-color: #fbfbfb;
+		border-radius: 10px;
+
+		.main-title {
+			font-family: RiseofKingdom;
+			font-size: 40px;
+			color: #333;
+			font-weight: 600;
+			text-align: center;
+			margin-bottom: 80px;
+		}
+
+		.developer {
+			position: absolute;
+			right: 35px;
+			top: 10px;
+
+			.img-developer {
+				width: 100px;
+				height: 100px;
+				margin-left: 40px;
+			}
+
+			.developer-name, .developer-info {
+				text-align: center;
+				margin: 5px;
+				width: 100%;
+			}
+		}
+
+		#url-alert {
+			display: inline-block;
+		    width: 80%;
+		    margin-left: 105px;
+		    height: 50px;
+		    color: red;
+		    font-size: 12px;
+		}
+
+		.sub-area {
+			width: 100%;
+			display: inline-block;
+
+			.sub-title {
+				width: 100px;
+			    display: inline-block;
+			}
+
+			.input-text {
+				height: 30px;
+				border-radius: 3px;
+    			border: 1px solid #b4b4b4;
+    			padding-left: 5px;
+			}
+
+			.image-text {
+				width: calc(100% - 110px);
+				border-radius: 3px;
+    			border: 1px solid #b4b4b4;
+    			padding-left: 5px;
+			}
+
+			.image-width, .image-height {
+				width: 25%;
+				display: inline-block;
+				
+				p {
+					margin-left: 100px;
+					color: red;
+					font-size: 12px;
+				}
+			}
+
+			.image-width {
+				float: left;
+			}
+
+			.image-width span {
+				width: 100px;
+			    display: inline-block;
+			}
+
+			.width-text, .height-text {
+				width: 100px;
+				line-height: 3;
+				border-radius: 3px;
+				border: 1px solid #b4b4b4;
+				padding-left: 5px;
+			}
+
+			.text-area {
+				display: inline-block;
+				width: 50%;
+				float: right;
+				margin-right: -48px;
+			}
+
+			.info-text {
+				width: 395px;
+			}
+
+			.download-button {
+				background-color: #333;
+			    color: white;
+			    border: none;
+			    padding: 10px 35px;
+			    font-size: 18px;
+			    cursor: pointer;
+			    margin: 0 20px;
+			    border-radius: 3px;
+
+			    &:hover {
+			    	background-color: green;
+			    }
+			}
+
+			.alert-area {
+				text-align: center;
+				margin-top: 20px;
+
+				span {
+					font-size: 20px;
+				    display: inline-block;
+				    width: 100%;
+				    height: 23px;
+				    // visibility: hidden;
+				}
+			}
+		}
+
+		.submit-area {
+			text-align: center;
+			margin: 25px 0;
+		}
+	}
+
+	.show-images {
+		margin-bottom: 30px;
+		border: 2px solid #222;
+		padding: 20px;
+		background-color: #fff;
+		border-radius: 5px;
+
+		img {
+			margin: 2px 4px;
+			border-radius: 20px;
+		    box-sizing: border-box;
+		}
+
+		img:first-child {
+			margin-left: -8px;
+		}
+	}
+}
