@@ -13,8 +13,8 @@
 		<form action="" class="data-info" method="post">
 			<p class="main-title">Image Download Interface</p>
 			<div class="developer">
-				<img src="MingLi.png" alt="" class="img-developer">
-				<p class="developer-name">Ming Li</p>
+				<img src="echoLive.jpg" alt="" class="img-developer">
+				<p class="developer-name">echoLive</p>
 				<p class="developer-info">aslike0613@hotmail.com</p>
 			</div>
 			<div class="url-area sub-area">
